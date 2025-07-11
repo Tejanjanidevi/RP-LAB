@@ -1,0 +1,4 @@
+my_tuple = (10, 20, 30, "Python", True)
+print("Complete Tuple:", my_tuple)
+print("First Element:", my_tuple[0])
+print("Last Element:", my_tuple[-1])
