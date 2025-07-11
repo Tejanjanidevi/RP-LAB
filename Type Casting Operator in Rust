@@ -1,0 +1,14 @@
+fn main() {
+    let a: i32 = 10;
+    let b: f64 = 20.5;
+
+    // Explicit type casting: a (i32) to f64
+    let sum = a as f64 + b;
+
+    println!("Sum after casting: {}", sum);
+
+    // Casting float to int (loses decimal part)
+    let c: f64 = 15.75;
+    let d: i32 = c as i32;
+    println!("After casting float to int: {}", d);
+}
