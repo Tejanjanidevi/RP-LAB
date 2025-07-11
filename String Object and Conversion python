@@ -1,0 +1,8 @@
+# String literal
+str_literal = "Hello"
+
+# Convert to string object (in Python, it's already an object)
+str_object = str(str_literal)
+
+print("String Literal:", str_literal)
+print("String Object:", str_object)
