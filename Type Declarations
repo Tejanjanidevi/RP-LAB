@@ -1,0 +1,12 @@
+# a. Implicit type declaration
+a = 10       # int
+b = 10.5     # float
+c = "Hello"  # str
+
+# b. Explicit type declaration
+x: int = 100
+y: float = 99.9
+z: str = "Python"
+
+print(a, b, c)
+print(x, y, z)
