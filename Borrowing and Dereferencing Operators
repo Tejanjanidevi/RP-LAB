@@ -1,0 +1,17 @@
+fn main() {
+    let x = 10;
+    let y = &x; // borrowing x (immutable borrow)
+
+    println!("Value of x: {}", x);
+    println!("Borrowed value (y): {}", y);
+    println!("Dereferenced value (*y): {}", *y); // dereferencing y
+
+    let mut z = 5;
+    {
+        let z_ref = &mut z; // mutable borrow
+        *z_ref += 1;        // dereferencing and modifying
+        println!("Inside block, z after modification: {}", z_ref);
+    }
+
+    println!("Outside block, final value of z: {}", z);
+}
