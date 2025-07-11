@@ -1,0 +1,8 @@
+x = 10  # global scope
+
+def example():
+    x = 20  # local scope, shadows global x
+    print("Inside function, x =", x)
+
+example()
+print("Outside function, x =", x)
