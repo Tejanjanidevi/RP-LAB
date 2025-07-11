@@ -1,0 +1,9 @@
+PI = 3.14159           # float constant
+MAX_USERS = 100        # integer constant
+APP_NAME = "MyApp"     # string constant
+IS_ACTIVE = True       # boolean constant
+
+print("PI =", PI)
+print("Max Users =", MAX_USERS)
+print("App Name =", APP_NAME)
+print("Is Active =", IS_ACTIVE)
